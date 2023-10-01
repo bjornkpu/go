@@ -1,3 +1,4 @@
+// This is the package docs
 package main
 
 import (
@@ -6,6 +7,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 )
 
+// This is the main class
 func main() {
 	fmt.Println(morestrings.ReverseRunes("!oG ,olleH"))
 	fmt.Println(cmp.Diff("Hello World", "Hello Go"))
